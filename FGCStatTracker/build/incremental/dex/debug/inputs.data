@@ -1,0 +1,27 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1377044664641 642 9ee17e0370280c86e7773887dc4f9aec63b26909 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R$styleable.class
+1377044664589 1935 98f4345fc688054fb66f4c4dcd952d760b7b49be C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\FullscreenActivity$1.class
+1377044664608 655 c7c2207cf145655d51a3282256557c96cc3b3150 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\util\SystemUiHider$1.class
+1377044664592 1961 7848bd6ed4e9dfe2b2febbae9986c3a02d0b9716 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\FullscreenActivity$2.class
+1377044664636 419 3bdb06869c662fb05146d29921cd1645296cf2cf C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R$drawable.class
+1377044664618 1479 55204a9f59bc405c6f5c7155dab9cd4cec2aee37 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\util\SystemUiHiderBase.class
+1377044664642 727 2b3fd65136042b7b97d62189607851d658ac766b C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R.class
+1377044664595 953 ecbed2a9eb3365bb37f4634b07a756cd16ec354b C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\FullscreenActivity$4.class
+1377044664609 305 05b290cee99e8a6a02b76bda9751be088e01d14f C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\util\SystemUiHider$OnVisibilityChangeListener.class
+1377044664596 846 6436815aae4ea097a6c7e5dc927a6dd95202055e C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\FullscreenActivity$5.class
+1377044664633 454 2c6df2dc36521fcb9abaee7d2f379ff01820869c C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R$attr.class
+1377044664644 353 b130cd6df963b0c742463f660ffdd73d3893b8b9 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\BuildConfig.class
+1377044664640 602 37219d26232cfa8eabeea83b34b2facfe3b89f3a C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R$style.class
+1377044664599 1228 afc7391e232970dcf11b266b2297a305d5a59f39 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\FullscreenActivity$MyCountDownTimer.class
+1377044664612 2068 224151cc21ef2eaacd75910a219a86e7ae60db67 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\util\SystemUiHider.class
+1377044664638 421 5f244c393d1ad3b8a4d6c833ed515d93fcb9a153 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R$layout.class
+1377044664593 1021 34c1f23c1eec5d9d4902503bf4771b652378cac2 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\FullscreenActivity$3.class
+1369432936000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d C:\Users\ncook\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\13.0.0\support-v4-13.0.0.jar
+1377044664636 412 f686d60891470c595e2dfd1cb04578b5019ce21e C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R$color.class
+1377044664639 483 c2763ae9e22dc8afe1f9d405d501d79c51fd5b04 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R$string.class
+1377044664603 4773 5a6a91ab080f883cce48ad9268bbeba72c13d0e1 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\FullscreenActivity.class
+1377044664629 2263 d3fc962fea2010246821d29d4f7862f096297ea9 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\util\SystemUiHiderHoneycomb.class
+1377044664625 2039 821bb5a87d152e63ee576bdc2419ba96faad8b23 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\util\SystemUiHiderHoneycomb$1.class
+1377044664637 1054 91604025700c4d9a6787c2d040382e48bbc73004 C:\Users\ncook\Android StudioProjects\FGCStatTrackerProject\FGCStatTracker\build\classes\debug\com\gg2\fgcstattracker\R$id.class

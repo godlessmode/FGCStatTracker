@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FGCStatTracker/FGCStatTracker.iml" filepath="$PROJECT_DIR$/FGCStatTracker/FGCStatTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FGCStatTrackerProject.iml" filepath="$PROJECT_DIR$/FGCStatTrackerProject.iml" />
+    </modules>
+  </component>
+</project>
+

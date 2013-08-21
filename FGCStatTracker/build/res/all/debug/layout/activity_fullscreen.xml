@@ -1,0 +1,193 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:textColor="#33b5e5"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:text="@string/dummy_content" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="left|center_vertical">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls"
+            style="?buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+        <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/RtToggle"
+                android:layout_gravity="center_horizontal|top"
+                android:clickable="true"/>
+
+        <Chronometer
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RoundTime"
+                android:format="%s"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="60dp"/>
+
+        <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/p1Health"
+                android:layout_gravity="top"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:focusableInTouchMode="false"/>
+
+        <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/p2Health"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="50dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Player 1"
+                android:id="@+id/p1Name"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="45dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Player 2"
+                android:id="@+id/p2Name"
+                android:layout_gravity="right|top"
+                android:layout_marginRight="45dp"/>
+
+        <Button
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:id="@+id/p1HealthButton"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="20dp"/>
+
+        <Button
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:id="@+id/p2HealthButton"
+                android:layout_gravity="right|top"
+                android:layout_marginRight="20dp"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/p1MeterUp"
+                android:layout_gravity="left|top"
+                android:layout_marginTop="80dp"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/p1MeterDown"
+                android:layout_gravity="left|top"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="90dp"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/p2MeterDown"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="80dp"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/p2MeterUp"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="90dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="4"
+                android:id="@+id/p2Meter"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="65dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="4"
+                android:id="@+id/p1Meter"
+                android:layout_gravity="left|top"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="65dp"/>
+
+        <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="P1 Clash"
+                android:id="@+id/p1Clash"
+                android:layout_gravity="left|bottom"
+                android:layout_marginBottom="100dp"/>
+
+        <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="P2 Clash"
+                android:id="@+id/p2Clash"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="100dp"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P1 Win"
+                android:id="@+id/p1WinButton"
+                android:layout_gravity="left|bottom"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P2 Win"
+                android:id="@+id/p2WinButton"
+                android:layout_gravity="right|bottom"/>
+
+    </FrameLayout>
+
+</FrameLayout>
+<!-- From: file:/C:/Users/ncook/Android%20StudioProjects/FGCStatTrackerProject/FGCStatTracker/src/main/res/layout/activity_fullscreen.xml -->
